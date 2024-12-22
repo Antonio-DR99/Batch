@@ -1,0 +1,19 @@
+"Gestión de Inventario de una Tienda"
+
+Crea un programa en Batch que simule un sistema simple de gestión de inventario para una tienda. El programa deberá ser capaz de realizar las siguientes operaciones:
+
+Agregar productos al inventario: El usuario podrá ingresar el nombre del producto, su cantidad en inventario y su precio unitario. El programa almacenará esta información en variables y la mostrará al final.
+
+Ver el inventario: El programa debe permitir al usuario ver todos los productos almacenados con su nombre, cantidad y precio. Además, deberá calcular el valor total del inventario (cantidad * precio).
+
+Eliminar productos: El usuario podrá eliminar un producto ingresando el nombre del mismo. Si el producto está en el inventario, deberá ser eliminado de la lista.
+
+Buscar productos: El programa deberá permitir al usuario buscar un producto por su nombre. Si lo encuentra, deberá mostrar la información del producto (nombre, cantidad y precio).
+
+Salir del programa: El programa debe tener una opción para salir del sistema.
+
+Requisitos:
+El programa debe mostrar un menú principal con las opciones para agregar, ver, eliminar, buscar productos y salir.
+Utiliza un sistema de "vectores" (simulados con variables numeradas) para almacenar los datos de los productos (nombre, cantidad, precio).
+Los datos deben ser guardados en el momento de la ejecución del programa (no se requiere almacenamiento en archivos).
+El programa debe validar las entradas del usuario (por ejemplo, asegurarse de que la cantidad y el precio sean números válidos).
